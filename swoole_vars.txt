@@ -1,0 +1,81 @@
+$serv:
+	object(swoole_server)#3 (7) {
+  ["connections"]=>
+  object(swoole_connection_iterator)#4 (0) {
+  }
+  ["setting"]=>
+  array(13) {
+    ["timeout"]=>
+    float(2.5)
+    ["poll_thread_num"]=>
+    int(1)
+    ["writer_num"]=>
+    int(1)
+    ["worker_num"]=>
+    int(1)
+    ["backlog"]=>
+    int(128)
+    ["open_cpu_affinity"]=>
+    bool(true)
+    ["open_tcp_nodelay"]=>
+    bool(true)
+    ["log_file"]=>
+    string(15) "/tmp/swoole.log"
+    ["daemonize"]=>
+    bool(false)
+    ["task_worker_num"]=>
+    int(0)
+    ["pipe_buffer_size"]=>
+    int(33554432)
+    ["buffer_output_size"]=>
+    int(2097152)
+    ["max_connection"]=>
+    int(1024)
+  }
+  ["master_pid"]=>
+  int(1023)
+  ["manager_pid"]=>
+  int(1025)
+  ["worker_id"]=>
+  int(0)
+  ["taskworker"]=>
+  bool(false)
+  ["worker_pid"]=>
+  int(1027)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$fd int 
+
+$from_id int
+
+
+$data 
+   string(491) "GET / HTTP/1.1
+Host: 127.0.0.1:4401
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade: websocket
+Origin: http://www.testswoole.com
+Sec-WebSocket-Version: 13
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Sec-WebSocket-Key: ACxuzrb5AkmGBMl2GtCZXg==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+"
+
