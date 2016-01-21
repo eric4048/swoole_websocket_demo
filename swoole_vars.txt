@@ -1,4 +1,4 @@
-this is some params printed.
+This is some params printed on OnReceived function.
 $serv:
 	object(swoole_server)#3 (7) {
   ["connections"]=>
